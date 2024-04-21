@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrix Clock</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>EE1301 Final Project</h1>
+  </header>
+  <p><u>Change the time:</u></p>
+  <main>
+    <div class="content">
+      <div class="slider-container">
+        <!-- Input range for changing time -->
+        <input type="range" id="time-slider" class="c-rng" min="0" max="360" step="1" value="82" data-range="circular" />
+      </div>
+    </div>
+    <div class="content">
+      <!-- Button to submit the changed time -->
+      <button id="submit-button" class="submit-button">Submit</button>
+    </div>
+    <!-- Output display for the changed time -->
+    <output id="time-output" class="time-output"></output>
+  </main>
+  
+  <!-- Include JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
